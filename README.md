@@ -11,6 +11,13 @@ This repository contains a GitHub Actions workflow that builds FFmpeg from scrat
 5. The workflow will automatically run and build FFmpeg from scratch using a Docker container.
 6. The built FFmpeg packages will be archived as artifacts and uploaded as release assets using `actions/upload-artifact@v3`.
 
+## Workflow Updates
+
+The workflow now uses the following updated actions:
+- `actions/upload-artifact@v3` for uploading artifacts.
+- `actions/create-release@v1.1.0` for creating releases.
+- `actions/upload-release-asset@v1.1.0` for uploading release assets.
+
 ## How to Download the Built FFmpeg Packages
 
 1. Go to the "Releases" section of your GitHub repository.
