@@ -9,7 +9,7 @@ This repository contains a GitHub Actions workflow that builds FFmpeg from scrat
 3. Add the `build-ffmpeg.yml` workflow file to the `.github/workflows` directory.
 4. Commit and push the changes to your repository.
 5. The workflow will automatically run and build FFmpeg from scratch using a Docker container.
-6. The built FFmpeg packages will be archived as artifacts and uploaded as release assets.
+6. The built FFmpeg packages will be archived as artifacts and uploaded as release assets using `actions/upload-artifact@v3`.
 
 ## How to Download the Built FFmpeg Packages
 
