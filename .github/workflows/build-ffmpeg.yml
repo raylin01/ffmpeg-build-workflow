@@ -50,7 +50,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ffmpeg-build-${{ github.sha.substring(0, 6) }}
+        tag_name: ffmpeg-build-${{ github.sha }}
         release_name: FFmpeg Build ${{ github.run_number }}
         draft: false
         prerelease: false
